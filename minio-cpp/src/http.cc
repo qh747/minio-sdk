@@ -48,6 +48,10 @@
 #include <arpa/inet.h>
 #endif
 
+// CURL_PROGRESSFUNC_CONTINUE in curl-v8.5.0 exists. value equal to 0x10000001.
+#ifndef CURL_PROGRESSFUNC_CONTINUE
+  #define CURL_PROGRESSFUNC_CONTINUE 0x10000001
+#endif
 namespace minio::http {
 
 // MethodToString converts http Method enum to string.
