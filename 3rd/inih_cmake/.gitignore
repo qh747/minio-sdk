@@ -1,0 +1,4 @@
+fuzzing/findings
+fuzzing/inihfuzz
+out/
+.vs/

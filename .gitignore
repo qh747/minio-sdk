@@ -1,0 +1,7 @@
+build/
+bin/
+install/
+3rd/*/build/
+3rd/*/install/
+minio-cpp/lib/
+.vscode/
